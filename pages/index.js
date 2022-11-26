@@ -64,7 +64,7 @@ export default function Home() {
               </a>
             </div>
             <div className="flex w-full mx-auto bg-gradient-to-b from-teal-500 text-align-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image src={deved} layout="fill" objectFit="cover" alt="profile pic"/>
             </div>
           </div>
         </section>
@@ -128,98 +128,98 @@ export default function Home() {
               <p className="text-gray-800 py-1">Positive Work Ethic</p>
             </div>
           </div>
-          <div class="w-full min-h-screen flex justify-center items-center ">
-            <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:items-stretch md:space-x-12 w-full max-w-4xl p-8 sm:px-12 sm:py-10 rounded-xl shadow-lg dark:text-white text-black overflow-hidden">
-              <div class="md:py-4 flex-grow flex flex-col space-y-8 md:justify-between dark:text-white">
-                <div class="">
-                  <h1 class="font-bold text-4xl tracking-wide dark:text-white text-black">
+          <div className="w-full min-h-screen flex justify-center items-center ">
+            <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:items-stretch md:space-x-12 w-full max-w-4xl p-8 sm:px-12 sm:py-10 rounded-xl shadow-lg dark:text-white text-black overflow-hidden">
+              <div className="md:py-4 flex-grow flex flex-col space-y-8 md:justify-between dark:text-white">
+                <div className="">
+                  <h1 className="font-bold text-4xl tracking-wide dark:text-white text-black">
                     Contact me
                   </h1>
-                  <p class="text-white text-sm pt-2">
+                  <p className="text-white text-sm pt-2">
                     start a coversation with me!
                   </p>
                 </div>
 
-                <div class="flex flex-col space-y-6">
-                  <div class="inline-flex space-x-2 items-center">
+                <div className="flex flex-col space-y-6">
+                  <div className="inline-flex space-x-2 items-center">
                     <AiTwotonePhone
                       name="call"
-                      class="text-xl"
+                      className="text-xl"
                     ></AiTwotonePhone>
-                    <span class="select-all">+(425) 236 8555</span>
+                    <span className="select-all">+(425) 236 8555</span>
                   </div>
 
-                  <div class="inline-flex space-x-2 items-center">
-                    <AiFillMail name="mail" class="text-xl"></AiFillMail>
-                    <span class="select-all">kristinadev0@gmail.com</span>
+                  <div className="inline-flex space-x-2 items-center">
+                    <AiFillMail name="mail" className="text-xl"></AiFillMail>
+                    <span className="select-all">kristinadev0@gmail.com</span>
                   </div>
 
-                  <div class="inline-flex space-x-2 items-center">
+                  <div className="inline-flex space-x-2 items-center">
                     <AiFillEnvironment
                       name="addy"
-                      class="text-xl"
+                      className="text-xl"
                     ></AiFillEnvironment>
-                    <span class="select-all">Seattle, WA</span>
+                    <span className="select-all">Seattle, WA</span>
                   </div>
                 </div>
-                <div class="flex space-x-4 text-lg">
-                  <a href="#" class="hover:text-black">
+                <div className="flex space-x-4 text-lg">
+                  <a href="#" className="hover:text-black">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a>
-                  <a href="#" class="hover:text-teal-300">
+                  <a href="#" className="hover:text-teal-300">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a>
-                  <a href="#" class="hover:text-teal-300">
+                  <a href="#" className="hover:text-teal-300">
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
-                  <a href="#" class="hover:text-teal-300">
+                  <a href="#" className="hover:text-teal-300">
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </div>
               </div>
-              <div class="relative z-10">
-                <div class="absolute -top-28 -right-28 z-0 bg-pink-300 w-40 h-40 rounded-full"></div>
-                <div class="absolute -bottom-16 -left-28 z-0 bg-pink-300 w-40 h-40 rounded-full"></div>
-                <div class="relative z-10 w-full md:w-80 h-full bg-white p-8 text-gray-600 rounded-xl shadow-lg min-height: 300px">
+              <div className="relative z-10">
+                <div className="absolute -top-28 -right-28 z-0 bg-pink-300 w-40 h-40 rounded-full"></div>
+                <div className="absolute -bottom-16 -left-28 z-0 bg-pink-300 w-40 h-40 rounded-full"></div>
+                <div className="relative z-10 w-full md:w-80 h-full bg-white p-8 text-gray-600 rounded-xl shadow-lg min-height: 300px">
                   <div id="error"></div>
-                  <form action="https://formcarry.com/s/nmm2GPEeD" method="POST" accept-charset="UTF-8" class="flex flex-col space-y-4">
+                  <form action="https://formcarry.com/s/nmm2GPEeD" method="POST" acceptCharset="UTF-8" className="flex flex-col space-y-4">
                     <div>
-                      <label for="name" >
+                      <label htmlFor="name" >
                         Your name
                       </label>
                       <input
                         type="text"
                         id="name"
                         name= "name"
-                        class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
+                        className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
                       />
                     </div>
                     <div>
-                      <label for="email">
+                      <label htmlFor="email">
                         Email Address
                       </label>
                       <input
                         type="text"
                         id="Email Address"
                         name="email"
-                        class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
+                        className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
                       />
                     </div>
                     <div>
-                      <label for="text">
+                      <label htmlFor="text">
                         Message
                       </label>
                       <textarea
                         id="message"
                         name="message"
-                        class="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
+                        className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
                         rows="4"
                       ></textarea>
                     </div>
 
                     <input type="hidden" name="_gotcha"></input>
 
-                    <button class="inline-block self-end bg-pink-300 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
+                    <button className="inline-block self-end bg-pink-300 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm">
                       Submit
                     </button>
                   </form>
