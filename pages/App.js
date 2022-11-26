@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ContactForm from "./contact";
+// import ContactForm from "./contact";
 
 function App() {
   useEffect(() => {
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="py-6">
-          <ContactForm />
+          {/* <ContactForm /> */}
         </div>
       </header>
     </div>
