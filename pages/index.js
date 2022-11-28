@@ -33,7 +33,7 @@ export default function Home() {
                   className=" cursor-pointer text-2xl"
                 />
               </li>
-              
+
               <li>
                 <a
                   className="bg-gradient-to-r from-pink-100 text- to-pink-300 text-black px-4 py-2 border-none rounded-md ml-8"
@@ -63,9 +63,15 @@ export default function Home() {
                 <AiFillGithub />
               </a>
             </div>
-            flex justify-center text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-300 flex-1
-            <div className="flex flex-col justify-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-             <Image src={deved} layout="fill" objectFit="cover" alt="profile pic"/>
+            <div className=" mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              <center>
+                <Image
+                  src={deved}
+                  layout="fill"
+                  objectFit="cover"
+                  alt="profile pic"
+                />
+              </center>
             </div>
           </div>
         </section>
@@ -183,22 +189,23 @@ export default function Home() {
                 <div className="absolute -bottom-16 -left-28 z-0 bg-pink-300 w-40 h-40 rounded-full"></div>
                 <div className="relative z-10 w-full md:w-80 h-full bg-white p-8 text-gray-600 rounded-xl shadow-lg min-height: 300px">
                   <div id="error"></div>
-                  <form action="https://formcarry.com/s/nmm2GPEeD" method="POST" acceptCharset="UTF-8" className="flex flex-col space-y-4">
+                  <form
+                    action="https://formcarry.com/s/nmm2GPEeD"
+                    method="POST"
+                    acceptCharset="UTF-8"
+                    className="flex flex-col space-y-4"
+                  >
                     <div>
-                      <label htmlFor="name" >
-                        Your name
-                      </label>
+                      <label htmlFor="name">Your name</label>
                       <input
                         type="text"
                         id="name"
-                        name= "name"
+                        name="name"
                         className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-pink-300"
                       />
                     </div>
                     <div>
-                      <label htmlFor="email">
-                        Email Address
-                      </label>
+                      <label htmlFor="email">Email Address</label>
                       <input
                         type="text"
                         id="Email Address"
@@ -207,9 +214,7 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="text">
-                        Message
-                      </label>
+                      <label htmlFor="text">Message</label>
                       <textarea
                         id="message"
                         name="message"
