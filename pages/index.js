@@ -37,7 +37,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-pink-100 text- to-pink-300 text-black px-4 py-2 border-none rounded-md ml-8"
-                  href="mostRecRes.pdf"
+                  href="julierodriguez.pdf"
                 >
                   Resume
                 </a>
@@ -63,8 +63,9 @@ export default function Home() {
                 <AiFillGithub />
               </a>
             </div>
-            <div className="flex w-full mx-auto bg-gradient-to-b from-teal-500 text-align-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" alt="profile pic"/>
+            flex justify-center text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-300 flex-1
+            <div className="flex flex-col justify-center rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+             <Image src={deved} layout="fill" objectFit="cover" alt="profile pic"/>
             </div>
           </div>
         </section>
