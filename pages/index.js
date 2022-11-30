@@ -83,8 +83,8 @@ export default function Home() {
               experience in taking full stack applications from scratch to
               production as a developer and a project manager. My educational
               qualification's include a minor in mathematic's (attained) and a
-              bachelor's in software engineering (eventually, I promise) check
-              out my resume for more graduation and experience details.
+              bachelor's in software engineering (In progress). My software program requirements will completed by this spring! Please check
+              out my resume for more graduation and experience details. <br></br>
               Currently I am working with schweitzer engineering labs on a
               augmented reality project, I am also a mentor to high schoolers
               through the society of women engineer's organization and I am a
@@ -144,6 +144,7 @@ export default function Home() {
                   </h1>
                   <p className="text-white text-sm pt-2">
                     start a coversation with me!
+                    <br></br> preferred contact is through mobile messaging.
                   </p>
                 </div>
 
