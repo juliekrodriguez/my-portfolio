@@ -79,20 +79,26 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am a software engineer located in seattle washington. I have
-              experience in taking full stack applications from scratch to
-              production as a developer and a project manager. My educational
-              qualification's include a minor in mathematic's (attained) and a
-              bachelor's in software engineering (In progress). I will be
-              a part time student in fall 23 as I complete my requirements
-              and hope to turn any internship into a full time soon after summer 23.
-              <br></br>
-              Currently I am working with schweitzer engineering labs on a
-              augmented reality project, I am also a mentor to high schoolers
-              through the society of women engineer's organization and I am a
-              part-time tutor for computer science topics such as data
-              structures and algorithm's. I am a growth minded positive
-              individual and I love having new experiences and oppurtunities!
+              I am a dynamic software engineer based in the vibrant city of
+              Seattle, Washington. My expertise lies in developing and managing
+              full stack applications, from inception to successful deployment.
+              With a strong background in project management, I have effectively
+              led teams to produce high-quality work. My educational background
+              includes a minor in mathematics, which I have already obtained,
+              and a current pursuit of a bachelor's degree in software
+              engineering. As I continue my studies, I plan to take on a
+              part-time student role in the fall of 2023 to fulfill my remaining
+              requirements. I am eager to turn any potential internships into
+              full-time positions after the summer of 2023. Currently, I am part
+              of the team at Schweitzer Engineering Labs working on an exciting
+              augmented reality project. Outside of work, I am an active mentor
+              to high school students through the Society of Women Engineers
+              organization. Additionally, I offer tutoring services for computer
+              science topics, particularly in data structures and algorithms. My
+              growth mindset and positive attitude make me an excellent addition
+              to any team. I am always seeking out new experiences and
+              opportunities to expand my skillset and make meaningful
+              contributions.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p>
           </div>
