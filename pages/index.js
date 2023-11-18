@@ -56,7 +56,7 @@ export default function Home() {
               <a href="https://www.instagram.com/juliekrodriguezz">
                 <AiFillInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/krjulie001/">
+              <a href="https://www.linkedin.com/in/julietrodriguez1/">
                 <AiFillLinkedin />
               </a>
               <a href="https://github.com/juliekrodriguez">
@@ -79,26 +79,23 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I am a dynamic software engineer based in the vibrant city of
-              Seattle, Washington. My expertise lies in developing and managing
-              full stack applications, from inception to successful deployment.
-              With a strong background in project management, I have effectively
-              led teams to produce high-quality work. My educational background
-              includes a minor in mathematics, which I have already obtained,
-              and a current pursuit of a bachelor's degree in software
-              engineering. As I continue my studies, I plan to take on a
-              part-time student role in the fall of 2023 to fulfill my remaining
-              requirements. I am eager to turn any potential internships into
-              full-time positions after the summer of 2023. Currently, I am part
-              of the team at Schweitzer Engineering Labs working on an exciting
-              augmented reality project. Outside of work, I am an active mentor
-              to high school students through the Society of Women Engineers
-              organization. Additionally, I offer tutoring services for computer
-              science topics, particularly in data structures and algorithms. My
-              growth mindset and positive attitude make me an excellent addition
-              to any team. I am always seeking out new experiences and
-              opportunities to expand my skillset and make meaningful
-              contributions.
+              I am a dynamic software engineer based in Seattle, I have
+              proficiency in full-stack application development and project
+              management. I possess a robust background in successfully leading
+              teams through the entire development life cycle. My educational
+              qualifications include a minor in mathematics and a
+              bachelor's degree in software engineering. 
+              
+             Beyond my professional commitments, I contribute as a
+              mentor to high school students through the Society of Women
+              Engineers club. I also provide tutoring services to undergraduates, specializing
+             in computer science and mathematics. 
+             
+             My growth
+              mindset, positive attitude, and commitment to excellence position
+              me as a valuable asset to any team. I am consistently seeking new
+              experiences and opportunities to enhance my skill set and
+              contribute meaningfully to projects.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200"></p>
           </div>
@@ -116,22 +113,28 @@ export default function Home() {
               <p className="text-gray-800 py-1">C</p>
               <p className="text-gray-800 py-1"> C++</p>
               <p className="text-gray-800 py-1">C#</p>
+              <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Java</p>
               <p className="text-gray-800 py-1">JavaScript</p>
               <p className="text-gray-800 py-1">TypeScript</p>
               <p className="text-gray-800 py-1">SQL</p>
+              <p className="text-gray-800 py-1">Swift</p>
             </div>
 
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Technology and Frameworks
               </h3>
-              <p className="text-gray-800 py-1">Node.js</p>
               <p className="text-gray-800 py-1">MongoDB</p>
+              <p className="text-gray-800 py-1">Express</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">Node</p>
+              
               <p className="text-gray-800 py-1">MySQL</p>
-              <p className="text-gray-800 py-1">GIT</p>
+              <p className="text-gray-800 py-1">Django</p>
+              <p className="text-gray-800 py-1">Git</p>
               <p className="text-gray-800 py-1">Angular</p>
-              <p className="text-gray-800 py-1">Next.js</p>
+              <p className="text-gray-800 py-1">.NET</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <h3 className="text-lg font-medium pt-8 pb-2 ">Soft Skills</h3>
@@ -150,10 +153,6 @@ export default function Home() {
                   <h1 className="font-bold text-4xl tracking-wide dark:text-white text-black">
                     Contact me
                   </h1>
-                  <p className="text-white text-sm pt-2">
-                    start a coversation with me!
-                    <br></br> preferred contact is through mobile messaging.
-                  </p>
                 </div>
 
                 <div className="flex flex-col space-y-6">
@@ -167,7 +166,7 @@ export default function Home() {
 
                   <div className="inline-flex space-x-2 items-center">
                     <AiFillMail name="mail" className="text-xl"></AiFillMail>
-                    <span className="select-all">kristinadev0@gmail.com</span>
+                    <span className="select-all">julietdevops@gmail.com</span>
                   </div>
 
                   <div className="inline-flex space-x-2 items-center">
@@ -199,7 +198,7 @@ export default function Home() {
                 <div className="relative z-10 w-full md:w-80 h-full bg-white p-8 text-gray-600 rounded-xl shadow-lg min-height: 300px">
                   <div id="error"></div>
                   <form
-                    action="https://formcarry.com/s/nmm2GPEeD"
+                    action="https://formcarry.com/s/1OGFB-27Y6"
                     method="POST"
                     acceptCharset="UTF-8"
                     className="flex flex-col space-y-4"
