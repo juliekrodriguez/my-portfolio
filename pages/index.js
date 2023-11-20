@@ -37,7 +37,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-pink-100 text- to-pink-300 text-black px-4 py-2 border-none rounded-md ml-8"
-                  href="julierodriguez.pdf"
+                  href="Julie.K.Rodriguez.pdf"
                 >
                   Resume
                 </a>
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section> 
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
