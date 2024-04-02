@@ -37,7 +37,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-pink-100 text- to-pink-300 text-black px-4 py-2 border-none rounded-md ml-8"
-                  href="Julie.K.Rodriguez.pdf"
+                  href="JULIEROD.pdf"
                 >
                   Resume
                 </a>
@@ -161,7 +161,7 @@ export default function Home() {
                       name="call"
                       className="text-xl"
                     ></AiTwotonePhone>
-                    <span className="select-all">+(425) 236 8555</span>
+                    <span className="select-all">+(206) 887 1087</span>
                   </div>
 
                   <div className="inline-flex space-x-2 items-center">
@@ -174,7 +174,7 @@ export default function Home() {
                       name="addy"
                       className="text-xl"
                     ></AiFillEnvironment>
-                    <span className="select-all">Seattle, WA</span>
+                    <span className="select-all">Seattle, WA, USA</span>
                   </div>
                 </div>
                 <div className="flex space-x-4 text-lg">
@@ -204,7 +204,7 @@ export default function Home() {
                     className="flex flex-col space-y-4"
                   >
                     <div>
-                      <label htmlFor="name">Your name</label>
+                      <label htmlFor="name">Name</label>
                       <input
                         type="text"
                         id="name"
